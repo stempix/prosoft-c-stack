@@ -1,7 +1,6 @@
 #include "cstack.h"
 #include <stddef.h>
 #include <string.h>
-#include <stdio.h>
 
 #define UNUSED(VAR) (void)(VAR)
 // Объявление списка стеков
