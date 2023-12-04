@@ -4,24 +4,6 @@
 
 typedef int hstack_t;
 
-struct stack_item
-{
-    const struct stack_item* prev_item;
-    void *data;
-    size_t data_size;
-};
-
-typedef struct stack_item stack_item_t;
-
-struct stack
-{
-    stack_item_t* head;
-    hstack_t stack_handler;
-};
-
-typedef struct stack stack_type;
-
-
 hstack_t stack_new(void);
 void stack_free(const hstack_t stack);
 int stack_valid_handler(const hstack_t stack);
