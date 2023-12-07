@@ -1,6 +1,5 @@
 #ifndef CSTACK_H
 #define CSTACK_H
-#include <stdlib.h>
 
 typedef int hstack_t;
 
